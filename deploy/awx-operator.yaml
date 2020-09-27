@@ -139,7 +139,9 @@ spec:
       volumes:
         - name: runner
           emptyDir: {}
-
+      # Select the correct 64 Bit platform for your nodes if needed for example if you also have 32Bit Node in the cluster
+      #nodeSelector:
+      #  beta.kubernetes.io/arch: arm64  
 ---
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
