@@ -21,7 +21,7 @@ This Kubernetes Operator is meant to be deployed in your Kubernetes cluster(s) a
 
 First you need to deploy AWX Operator into your cluster:
 
-    kubectl apply -f https://raw.githubusercontent.com/ansible/awx-operator/devel/deploy/awx-operator.yaml
+    kubectl apply -f https://raw.githubusercontent.com/wep4you/awx-operator/devel/deploy/awx-operator.yaml
 
 Then you can create instances of AWX, for example:
 
