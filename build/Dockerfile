@@ -1,7 +1,7 @@
 FROM quay.io/operator-framework/ansible-operator:v0.17.0
 
 # Install kubectl.
-COPY --from=lachlanevenson/k8s-kubectl:v1.18.3 /usr/local/bin/kubectl /usr/local/bin/kubectl
+COPY --from=wep4you/k8s-kubectl:1.19.2 /usr/local/bin/kubectl /usr/local/bin/kubectl
 
 # Install Ansible requirements.
 COPY requirements.yml ${HOME}/requirements.yml
