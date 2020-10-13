@@ -4,6 +4,9 @@ An [Ansible AWX](https://github.com/ansible/awx) operator for Kubernetes built w
 
 Also configurable to be able to run [Tower](https://ansible.com/products/tower)
 
+## CI Status
+![buildx](https://github.com/wep4you/awx-operator/workflows/buildx/badge.svg?branch=devel)
+
 ## Purpose
 
 There are already official OpenShift/Kubernetes installers available for both AWX and Ansible Tower:
